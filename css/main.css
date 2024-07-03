@@ -1,0 +1,67 @@
+.about {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+.avatar {
+    width: 210px;
+    height: 210px;
+    margin-bottom: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 10px 10px 0px 0px black;
+
+}
+body {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+}
+.container {
+    background-image:linear-gradient(to right,rgba(249,181,243,0.29), rgba(101,39,245,0.29)), url('https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?q=80&w=1904&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    min-height: 100vh;
+    padding: 128px;
+}
+@media screen and (max-width: 768px) {
+    .container{
+        padding: 48px;
+    }
+}
+.contact {
+    margin-bottom: 48px;
+    font-weight: 400; 
+}
+.contact-icon{
+    margin-right: 12px;
+    width: 16px;
+}
+.contact-item {
+    margin-bottom: 4px;
+}
+.content {
+    max-width: 600px;
+}
+.job {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+.name {
+    font-size:40px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+@media screen and (max-width: 768px) {
+    .content.name{
+        font-size: 36px;
+    }
+
+
